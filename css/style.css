@@ -372,32 +372,159 @@ td {
     background: #5d276f;
     color: white;
 }
-.tag{
+
+.tag {
     background: white;
     margin-top: 10px;
     width: 216px;
     padding: 20px;
 }
-.tag span{
+
+.tag span {
     font-size: 14px;
     color: #622874;
 }
 
-.tag .title{
+.tag .title {
     color: #ccc;
 }
-.tag .biggest{
+
+.tag .biggest {
     font-size: 30px;
 }
 
-.tag .bigger{
+.tag .bigger {
     font-size: 24px;
 }
 
-.tag .bold{
+.tag .bold {
     font-weight: bold;
 }
 
-.tag .smaller{
+.tag .smaller {
     font-size: 10px;
+}
+
+.tab ul li {
+    float: left;
+    list-style: none;
+    background: white;
+    padding: 15px 20px 20px 20px;
+    border: 1px solid #ccc;
+    border-top: 4px solid black;
+}
+
+.tab .active {
+    border-bottom: 0px;
+}
+
+.tab li:hover {
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+.tab a {
+    text-decoration: none;
+}
+
+.gallery {
+    float: left;
+    margin-left: 140px;
+}
+
+.gallery-content {
+    background: white;
+    column-width: 180px;
+    column-gap: 15px;
+    width: 90%;
+    max-width: 700px;
+    margin-left: 40px;
+    padding: 15px;
+}
+
+.gallery-content figure {
+    background: #fefefe;
+    border: 2px solid #fcfcfc;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    margin: 0 2px 15px;
+    padding: 15px;
+    padding-bottom: 10px;
+    transition: opacity .4s ease-in-out;
+    column-break-inside: avoid;
+    display: inline-block;
+}
+
+.gallery-content figure img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-content figure figcaption h3 {
+    font-size: 14px;
+}
+
+.gallery-content figure figcaption p {
+    font-size: 12px;
+}
+
+.rank {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.rank .row {
+    margin: 10px auto;
+}
+
+.rank h2 {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 2 0px;
+}
+
+.rank .row span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #3f1c49;
+    color: white;
+    border-radius: 7px;
+    font-size: 10px;
+    text-align: center;
+    float: left;
+}
+
+.rank .row .progressbar-border {
+    float: left;
+    width: 90px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+.progressbar {
+    height: 15px;
+    background: #3f1c49;
+}
+
+.rank .row p {
+    float: left;
+    display: inline;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.clickmore {
+    background: white;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 683px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.clickmore a {
+    text-decoration: none;
 }
